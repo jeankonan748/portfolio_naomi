@@ -1,0 +1,47 @@
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #121212; /* Fond sombre pour la sobriété */
+            color: #E0E0E0; /* Texte clair */
+            overflow-x: hidden; /* Empêche le défilement horizontal */
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section {
+            padding: 4rem 0;
+        }
+        .project-card {
+            background-color: #1E1E1E;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, rotate 0.3s ease;
+        }
+        .project-card:hover {
+            transform: translateY(-8px) scale(1.02) rotateZ(1deg); /* Rotation subtile et décalage */
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+        /* Style des boutons pour un effet soigné */
+        .btn-primary {
+            background-color: #0F766E; /* Une touche de couleur élégante */
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #0A5A53;
+            transform: translateY(-2px); /* Effet "poussoir" */
+        }
+        
+        /* Animations d'apparition au défilement */
+        @keyframes fadeInMoveUp {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-on-scroll {
+            opacity: 0;
+            transform: translateY(50px);
+            animation-fill-mode: forwards;
+        }
+        .is-visible {
+            animation: fadeInMoveUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+        }
+    

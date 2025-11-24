@@ -10,53 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #121212; /* Fond sombre pour la sobriété */
-            color: #E0E0E0; /* Texte clair */
-            overflow-x: hidden; /* Empêche le défilement horizontal */
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        .section {
-            padding: 4rem 0;
-        }
-        .project-card {
-            background-color: #1E1E1E;
-            transition: transform 0.3s ease, box-shadow 0.3s ease, rotate 0.3s ease;
-        }
-        .project-card:hover {
-            transform: translateY(-8px) scale(1.02) rotateZ(1deg); /* Rotation subtile et décalage */
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-        }
-        /* Style des boutons pour un effet soigné */
-        .btn-primary {
-            background-color: #0F766E; /* Une touche de couleur élégante */
-            transition: background-color 0.3s ease, transform 0.3s ease;
-        }
-        .btn-primary:hover {
-            background-color: #0A5A53;
-            transform: translateY(-2px); /* Effet "poussoir" */
-        }
-        
-        /* Animations d'apparition au défilement */
-        @keyframes fadeInMoveUp {
-            from { opacity: 0; transform: translateY(50px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .animate-on-scroll {
-            opacity: 0;
-            transform: translateY(50px);
-            animation-fill-mode: forwards;
-        }
-        .is-visible {
-            animation: fadeInMoveUp 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="antialiased">
 
@@ -87,7 +41,7 @@
                 </div>
                 <!-- Image de placeholder pour le storytelling -->
                 <div class="p-4 bg-gray-800 rounded-xl overflow-hidden shadow-2xl animate-on-scroll" style="animation-delay: 0.4s;">
-                    <img src="images\Affoue_Portrait.png" alt="Photo de Yoboue Affoue Grace Naomi" class="rounded-lg w-full h-auto transform transition-transform duration-500 hover:scale-105">
+                    <img src="images\Affoue_Naomi_Yoboue.jpg" alt="Photo de Yoboue Affoue Grace Naomi" class="rounded-lg w-full h-auto transform transition-transform duration-500 hover:scale-105">
                 </div>
             </div>
         </div>
@@ -98,39 +52,158 @@
         <div class="container">
             <h2 class="text-3xl md:text-5xl font-bold text-center mb-12 animate-on-scroll">Mes Projets Clés</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Projet 1 -->
+                <!-- Commerciale - boutique de divers -->
                 <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.2s;">
-                    <img src="https://placehold.co/800x600/292929/e0e0e0?text=Projet+1" alt="Description du projet 1" class="rounded-lg mb-4 w-full h-auto">
-                    <h3 class="text-xl md:text-2xl font-bold mb-2">Identité Visuelle Impactante</h3>
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE COMMERCIALE - BOUTIQUE DE DIVERS.png" alt="Commerciale - boutique de divers" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Commerciale - boutique de divers</h3>
                     <p class="text-gray-400 text-sm md:text-base">
-                        Création d'un logo minimaliste et d'une charte graphique complète pour une marque engagée, axée sur l'authenticité et la force féminine.
+                        Création d'une affiche pour un projet.
                     </p>
-                    <a href="#" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
-                        Voir le projet
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE COMMERCIALE - BOUTIQUE DE DIVERS.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
                     </a>
                 </div>
-
-                <!-- Projet 2 -->
+                <!-- Commerciale - boutique de vetements -->
                 <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.4s;">
-                    <img src="https://placehold.co/800x600/292929/e0e0e0?text=Projet+2" alt="Description du projet 2" class="rounded-lg mb-4 w-full h-auto">
-                    <h3 class="text-xl md:text-2xl font-bold mb-2">Campagne d'Affiches pour le Changement</h3>
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE COMMERCIALE - BOUTIQUE DE VETEMENTS.png" alt="Commerciale - boutique de vetements" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Commerciale - boutique de vetements</h3>
                     <p class="text-gray-400 text-sm md:text-base">
-                        Conception d'une série d'affiches percutantes pour un mouvement social, alliant illustration et typographie moderne pour inspirer l'action.
+                        Création d'une affiche pour un projet.
                     </p>
-                    <a href="#" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
-                        Voir le projet
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE COMMERCIALE - BOUTIQUE DE VETEMENTS.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
                     </a>
                 </div>
-
-                <!-- Projet 3 -->
+                <!-- Commerciale - patisserie -->
                 <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.6s;">
-                    <img src="https://placehold.co/800x600/292929/e0e0e0?text=Projet+3" alt="Description du projet 3" class="rounded-lg mb-4 w-full h-auto">
-                    <h3 class="text-xl md:text-2xl font-bold mb-2">Design de Site Web & Expérience Puissante</h3>
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE COMMERCIALE - PATISSERIE.png" alt="Commerciale - patisserie" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Commerciale - patisserie</h3>
                     <p class="text-gray-400 text-sm md:text-base">
-                        Réalisation de maquettes et d'un prototype interactif pour une plateforme en ligne dédiée à l'entrepreneuriat féminin.
+                        Création d'une affiche pour un projet.
                     </p>
-                    <a href="#" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
-                        Voir le projet
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE COMMERCIALE - PATISSERIE.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
+                    </a>
+                </div>
+                <!-- Commerciale - pressing -->
+                <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.2s;">
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE COMMERCIALE - PRESSING.png" alt="Commerciale - pressing" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Commerciale - pressing</h3>
+                    <p class="text-gray-400 text-sm md:text-base">
+                        Création d'une affiche pour un projet.
+                    </p>
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE COMMERCIALE - PRESSING.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
+                    </a>
+                </div>
+                <!-- Commerciale -->
+                <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.4s;">
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE COMMERCIALE.png" alt="Commerciale" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Commerciale</h3>
+                    <p class="text-gray-400 text-sm md:text-base">
+                        Création d'une affiche pour un projet.
+                    </p>
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE COMMERCIALE.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
+                    </a>
+                </div>
+                <!-- De sensibilisation contre la drogue -->
+                <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.6s;">
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE DE SENSIBILISATION CONTRE LA DROGUE.png" alt="De sensibilisation contre la drogue" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">De sensibilisation contre la drogue</h3>
+                    <p class="text-gray-400 text-sm md:text-base">
+                        Création d'une affiche pour un projet.
+                    </p>
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE DE SENSIBILISATION CONTRE LA DROGUE.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
+                    </a>
+                </div>
+                <!-- De sensibilisation contre le gaspillage alimentaire -->
+                <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.2s;">
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE DE SENSIBILISATION CONTRE LE GASPILLAGE ALIMENTAIRE.png" alt="De sensibilisation contre le gaspillage alimentaire" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">De sensibilisation contre le gaspillage alimentaire</h3>
+                    <p class="text-gray-400 text-sm md:text-base">
+                        Création d'une affiche pour un projet.
+                    </p>
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE DE SENSIBILISATION CONTRE LE GASPILLAGE ALIMENTAIRE.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
+                    </a>
+                </div>
+                <!-- Evenement - build with ai -->
+                <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.4s;">
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE EVENEMENT - BUILD WITH AI.png" alt="Evenement - build with ai" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Evenement - build with ai</h3>
+                    <p class="text-gray-400 text-sm md:text-base">
+                        Création d'une affiche pour un projet.
+                    </p>
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE EVENEMENT - BUILD WITH AI.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
+                    </a>
+                </div>
+                <!-- Evenement -->
+                <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.6s;">
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE EVENEMENT.jpg" alt="Evenement" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Evenement</h3>
+                    <p class="text-gray-400 text-sm md:text-base">
+                        Création d'une affiche pour un projet.
+                    </p>
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE EVENEMENT.jpg" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
+                    </a>
+                </div>
+                <!-- Evenement -->
+                <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.2s;">
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE EVENEMENT.png" alt="Evenement" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Evenement</h3>
+                    <p class="text-gray-400 text-sm md:text-base">
+                        Création d'une affiche pour un projet.
+                    </p>
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE EVENEMENT.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
+                    </a>
+                </div>
+                <!-- Pour l'independance de la cöte d'ivoire -->
+                <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.4s;">
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE POUR L_INDEPENDANCE DE LA CÖTE D_IVOIRE.png" alt="Pour l'independance de la cöte d'ivoire" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Pour l'independance de la cöte d'Ivoire</h3>
+                    <p class="text-gray-400 text-sm md:text-base">
+                        Création d'une affiche pour un projet.
+                    </p>
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE POUR L_INDEPENDANCE DE LA CÖTE D_IVOIRE.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
+                    </a>
+                </div>
+                <!-- Pour une communaute estudiantine -->
+                <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.6s;">
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE POUR UNE COMMUNAUTE ESTUDIANTINE.png" alt="Pour une communaute estudiantine" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Pour une communaute estudiantine</h3>
+                    <p class="text-gray-400 text-sm md:text-base">
+                        Création d'une affiche pour un projet.
+                    </p>
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE POUR UNE COMMUNAUTE ESTUDIANTINE.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
+                    </a>
+                </div>
+                <!-- Pour une formation educatif -->
+                <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.2s;">
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE POUR UNE FORMATION EDUCATIF.png" alt="Pour une formation educatif" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Pour une formation educatif</h3>
+                    <p class="text-gray-400 text-sm md:text-base">
+                        Création d'une affiche pour un projet.
+                    </p>
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE POUR UNE FORMATION EDUCATIF.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
+                    </a>
+                </div>
+                <!-- Programme d'eglise -->
+                <div class="project-card rounded-xl p-6 shadow-lg animate-on-scroll" style="animation-delay: 0.4s;">
+                    <img src="images/AFFICHE IMPORTANT/AFFICHE PROGRAMME D_EGLISE.png" alt="Programme d'eglise" class="rounded-lg mb-4 w-full h-auto aspect-[4/3] object-cover">
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 h-16">Programme d'eglise</h3>
+                    <p class="text-gray-400 text-sm md:text-base">
+                        Création d'une affiche pour un projet.
+                    </p>
+                    <a href="images/AFFICHE IMPORTANT/AFFICHE PROGRAMME D_EGLISE.png" target="_blank" class="mt-4 text-sm inline-block btn-primary py-2 px-4 rounded-full font-medium">
+                        Voir l'affiche
                     </a>
                 </div>
             </div>
