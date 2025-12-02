@@ -1,0 +1,104 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "affoue1.yoboue@uvci.edu.ci",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "affoue1.yoboue@uvci.edu.ci"
+      },
+      {
+        "type": "phone",
+        "label": "+225 07 68 76 22 53",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:+2250768762253"
+      },
+      {
+        "type": "website",
+        "label": "www.mywebsite.com",
+        "icon": "/images/icon/web-icon.svg",
+        "link": "https://www.naomiYoboue.com"
+      }
+    ],
+    "socialItems": [
+      {
+        "platform": "dribbble",
+        "icon": "/images/icon/dribble-icon.svg",
+        "link": "https://dribbble.com"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://linkedin.com/affoue-grace-naomi-yoboue-66b426342"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "Licence en Informatique et Sciences du Numérique",
+        "description": "Depuis septembre 2024 Université Virtuelle de Côte d'Ivoire cocody II plateaux"
+      },
+      {
+        "title": "Baccalaureat",
+        "description": "De septembre 2023 à juillet 2024 Collège les Roitelets Abidjan"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Figma",
+        "icon": "/images/home/education-skill/figma-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Photoshop",
+        "icon": "/images/home/education-skill/photoshop-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Premiere Pro",
+        "icon": "/images/home/education-skill/adobe-premiere-svgrepo-com.svg",
+        "rating": 4
+      },
+      {
+        "name": "Adobe XD",
+        "icon": "/images/home/education-skill/adobe-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Capcut",
+        "icon": "/images/home/education-skill/capcut-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "QGIS",
+        "icon": "/images/home/education-skill/qgis-logo.svg",
+        "rating": 3
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "Facebook",
+        "href": "/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "https://linkedin.com/affoue-grace-naomi-yoboue-66b426342"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "affoue1.yoboue@uvci.edu.ci",
+        "link": "mailto:affoue1.yoboue@uvci.edu.ci"
+      },
+      {
+        "type": "phone",
+        "label": "+225 07 68 76 22 53",
+        "link": "tel:+2250768762253"
+      }
+    ]
+  }
+}
