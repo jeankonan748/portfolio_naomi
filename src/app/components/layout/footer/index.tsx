@@ -15,21 +15,21 @@ const Footer = () => {
           <p className="text-secondary">
             Designed by{" "}
             <a
-              href="https://getnextjstemplates.com/"
+              href="www.linkedin.com/in/jean-konan"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              getnextjstemplates
+              Jean KONAN
             </a>{" "}
             • Distributed by{" "}
             <a
-              href="https://themewagon.com/"
+              href="https://portfolio-naomi.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              ThemeWagon
+              Yoboue Naomi
             </a>
           </p>
         </div>
