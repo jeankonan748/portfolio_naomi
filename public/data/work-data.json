@@ -2,39 +2,39 @@
   "workData": [
     {
       "image": "/images/work/work-img-1.png",
-      "title": "Création d'une affiche d'évènement - Build With AI 2025",
-      "client": "GDG on Campus",
-      "slug": "Conception d'une affiche pour la promotion d'évènement(Build With AI 2025)"
+      "title": "Création d'une affiche pour le Build-With AI 2025",
+      "client": "GDG on Campus UVCI",
+      "slug": ""
     },
     {
       "image": "/images/work/work-img-2.png",
-      "title": "Création d'affiche de sensibilisation - ONG Enfant sans SIDA (2025)",
-      "client": "ONG Enfant sans SIDA",
-      "slug": "Conception graphique sur Photoshop d'une affiche pour promouvoir la prévention du SIDA chez les enfants"
+      "title": "Création d'une affiche programme d'église",
+      "client": "Eglise de jesus-christ le fondement biblique",
+      "slug": "Conception d'une affiche pour le programme de culte du Mardi"
     },
     {
       "image": "/images/work/work-img-3.jpg",
-      "title": "Fashion Website Template",
-      "client": "John Honnai",
-      "slug": "fashion-website-template"
+      "title": "Création d'affiche de sortie a la plage de la CVPB",
+      "client": "Communauté Virtuelle de Port-Bouet",
+      "slug": "Conception graphique sur Photoshop d'une affiche pour promouvoir une sortie détente à la plage."
     },
     {
       "image": "/images/work/work-img-4.png",
-      "title": "Book Cover Design",
-      "client": "John Honnai",
-      "slug": "book-cover-design"
+      "title": "Création d'affiche de sortie a la plage de la CVPB Officiel",
+      "client": "Communauté Virtuelle de Port-Bouet",
+      "slug": ""
     },
     {
       "image": "/images/work/work-img-5.png",
-      "title": "Mobile App Design",
-      "client": "John Honnai",
-      "slug": "mobile-app-design"
+      "title": "Affiche Indpendance de la Côte d'Ivoire",
+      "client": "Communauté Virtuelle de Port-Bouet",
+      "slug": "Indépendance de la Côte d'Ivoire"
     },
     {
       "image": "/images/work/work-img-6.png",
-      "title": "Mug Sticker Designing",
-      "client": "John Honnai",
-      "slug": "mug-sticker-designing"
+      "title": "Affiche Akwaba des nouveaux étudiants",
+      "client": "Communauté Virtuelle de Port-Bouet",
+      "slug": "Attirer plus d'etudiants a réjoindre la Communnauté avec un accueil chaleureux"
     }
   ]
 }
