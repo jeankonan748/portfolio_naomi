@@ -1,21 +1,13 @@
 import type { NextConfig } from "next";
 
-const basePath = process.env.NODE_ENV === "production" ? "/Resume-Nextjs" : "";
-
 const nextConfig: NextConfig = {
-  // output: "export",
+  // On retire output: 'export' (Vercel le fait mieux tout seul)
+  // On retire basePath (pour être à la racine du site)
+  // On retire images: unoptimized (Vercel optimise les images gratuitement)
   
-  basePath,
-  assetPrefix: basePath,
-  images: {
-    unoptimized: true,
-  },
-  trailingSlash: true,
   eslint: {
+    // Évite que le déploiement échoue pour une petite erreur de code
     ignoreDuringBuilds: true,
-  },
-  env: {
-    NEXT_PUBLIC_BASE_PATH: basePath,
   },
 };
 
